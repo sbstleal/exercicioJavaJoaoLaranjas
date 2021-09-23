@@ -79,9 +79,11 @@ public class AppConsoleApplication {
 				}
                 valorTotalAlterado += (valorTotal * porcentagemAcrescimo / 100);
 			}
+		}		
 
 			double lucroAReceber = (valorTotalAlterado * porcentagemLucro / 100);
 
+			System.out.println("\n");
 			System.out.println("==============================");
 			System.out.println("Parabens pela venda!!!!!");
 			System.out.println("==============================");
@@ -102,6 +104,5 @@ public class AppConsoleApplication {
 			}
 			System.out.println("==============================");
 			// SpringApplication.run(AppConsoleApplication.class, args);
-		}
 	}
 }
