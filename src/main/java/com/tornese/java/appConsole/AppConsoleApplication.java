@@ -109,7 +109,7 @@ public class AppConsoleApplication {
 				System.out.println(
 						"O valor da Parcela será de R$" + (valorTotalAlterado / parcelas) + " x " + parcelas + ".");
 			}
-			System.out.println("==============================");
+			System.out.println("==============================\n\n");
 		}
 		// SpringApplication.run(AppConsoleApplication.class, args);
 	}
